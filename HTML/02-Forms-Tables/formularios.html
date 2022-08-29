@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formularios</title>
+    </head>
+    <body>
+        <!-- Form created to get data -->
+        <!-- action= used to connect to another file or link-->
+        <!-- method= to check what to do with the info from the form-->
+        <form action="resultados.html" method="GET"> <!-- Form created-->
+            <div>
+                <!-- for= used to connect with the inputs -->
+                <label for="username">Nombre de usuario</label>
+                <!--type to receive an specific data-->
+                <!-- name and id to connect with label and create a variable-->
+                <!-- required to make the input required to fill-->
+                <input type="text" name="username" id="usarname" required />
+            </div>
+            <br>
+            <div>
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" id="password"  />
+            </div>
+            <br>
+            <div>
+                <label for="email">Cual es tu email?</label>
+                <input type="email" name="email" id="email" />
+            </div>
+            <br>
+            <div>
+                <label for="age">Cual es tu edad?</label>
+                <input type="number" name="age" id="age" min="0" max="100"/>
+            </div>
+            <br>
+            <div>
+                <label for="comments">Comentarios</label>
+                <textarea name="comments" id="comments" rows="1"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="bithday">Cual es tu fecha de nacimiento?</label>
+                <input type="date" name="bithday" id="birthday">
+            </div>
+            <br>
+            <div>
+                <label for="acceptance">Aceptar datos</label>
+                <input type="checkbox" name="acceptance" id="acceptance">
+            </div>
+            <br>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
