@@ -1,0 +1,24 @@
+/* Estilos para colores */
+.colores {
+    color: orangered;
+}
+.color-hexadecimal {
+    color: #8CE784
+}
+.color-rgb  {
+    color: rgb(100, 50, 50)
+}
+.color-rgba {
+    color: rgba(10,10,10, 0.5)
+}
+
+.color-rgba {
+    color: rgb
+}
+
+/* Fondons */
+
+.fondo {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/001/953/692/small/abstract-colourful-watercolour-background-free-vector.jpg);
+    background-position: left bottom;
+}
